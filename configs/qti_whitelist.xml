@@ -65,6 +65,8 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qti.biometrics.voiceprint.voiceprintdemo" />
     <hidden-api-whitelisted-app package="com.qti.vtloopback " />
     <hidden-api-whitelisted-app package="com.google.android.packageinstaller" />
+    <hidden-api-whitelisted-app package="com.android.bluetooth" />
+    <hidden-api-whitelisted-app package="org.codeaurora.bluetooth" />
     <hidden-api-whitelisted-app package="com.qualcomm.wfd.client" />
     <hidden-api-whitelisted-app package="com.qualcomm.wfd.service" />
 </config>
