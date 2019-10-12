@@ -1146,6 +1146,17 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 
+# Soter
+lib/vendor.qti.hardware.soter@1.0.so
+lib64/vendor.qti.hardware.soter@1.0.so
+vendor/bin/vendor.qti.hardware.soter@1.0-provision
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib/vendor.qti.hardware.soter@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.soter@1.0.so
+
 # SSR
 vendor/bin/ssr_diag
 vendor/bin/ssr_setup
