@@ -60,7 +60,6 @@ PRODUCT_PACKAGES += \
     audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
-    libaacwrapper \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -416,5 +415,9 @@ PRODUCT_PACKAGES += \
     wpa_supplicant.conf
 
 # Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libaacwrapper \
+    libnl
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
